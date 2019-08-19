@@ -1,0 +1,12 @@
+html body {
+    background-color: #ffcf59;
+}
+
+h1.title {
+    padding: 1em 0;
+}
+
+div.mma-news ul li {
+    padding: 1em 0;
+    list-style: none;
+}

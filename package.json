@@ -1,5 +1,5 @@
 {
-  "name": "simple-frontend",
+  "name": "sample-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8ivek/sample-frontend.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8ivek/sample-frontend/issues"
+  },
+  "homepage": "https://github.com/8ivek/sample-frontend#readme"
 }
