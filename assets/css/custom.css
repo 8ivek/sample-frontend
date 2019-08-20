@@ -10,3 +10,7 @@ div.mma-news ul li {
     padding: 1em 0;
     list-style: none;
 }
+
+div.mma-news ul {
+    padding-left: 0;
+}
