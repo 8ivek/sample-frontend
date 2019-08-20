@@ -1,0 +1,17 @@
+#. create a nodejs / express api with sequelize.org
+
+#. design should be like: designs/listing_page and designs/submit_page
+
+#. create a bookmarklet
+
+#. create a database design including existing db structure but add followings:
+
+1. xxx points per news (add a column to news)
+
+2. user table (email, password, name)
+
+3. hide news per user (a table for it) t_user_hidden_news (id, user_id, news_id)
+
+4. user comments to news (a table for it) (id, news_id, user_id, comment)
+
+5. add vote table (id, news_id, user_id ) any insert is considered one vote per user. this table can't have multiple votes for same news by same user.
