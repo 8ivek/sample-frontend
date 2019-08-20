@@ -1,64 +1,103 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta
-        content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
-        <!-- Bootstrap CSS -->
-        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
-        <title>Latest mma news</title>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">MMA</a>
-            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
+    <title>Latest mma news</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">MMA</a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">new</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">submit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container">
+            <h2 class="title">Latest news in MMA</h2>
+            <div class="mbr-text counter-container col-12 col-md-12 mbr-fonts-style display-7 mma-news">
+                <ul>
+                    <li>
+                        <a title="mma news title" class="mb-1 mma_news_title" href="#">Duke Roufus ‘blown away’ Anthony Pettis fought with broken
+                            foot, sees 155 return next</a>
+                        <div class="d-flex flex-row">
+                            <div class="points p-2"><a href="#">106 points</a></div>
+                            <div class="by p-2"><a href="#">by Kelvin</a></div>
+                            <div title="Published On: 2019-08-20 17:00:16" class="text-muted time p-2">51 minutes ago
+                            </div>
+                            <div class="hide p-2"><a href="#">hide</a></div>
+                            <div class="comments p-2"><a href="#">505 comments</a></div>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                    <li>
+                        <a title="mma news title" class="mb-1 mma_news_title" href="#">Francis Ngannou calls for rematch with Stipe Miocic</a>
+                        <div class="d-flex flex-row">
+                            <div class="points p-2"><a href="#">106 points</a></div>
+                            <div class="by p-2"><a href="#">by Kelvin</a></div>
+                            <div title="Published On: 2019-08-20 17:00:16" class="text-muted time p-2">51 minutes ago
+                            </div>
+                            <div class="hide p-2"><a href="#">hide</a></div>
+                            <div class="comments p-2"><a href="#">101 comments</a></div>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                    <li>
+                        <a title="mma news title" class="mb-1 mma_news_title" href="#">Eryk Anders vs. Gerald Meerschaert added to UFC on ESPN+ 19 in Tampa</a>
+                        <div class="d-flex flex-row">
+                            <div class="points p-2"><a href="#">106 points</a></div>
+                            <div class="by p-2"><a href="#">by Kelvin</a></div>
+                            <div title="Published On: 2019-08-20 17:00:16" class="text-muted time p-2">51 minutes ago
+                            </div>
+                            <div class="hide p-2"><a href="#">hide</a></div>
+                            <div class="comments p-2"><a href="#">discuss</a></div>
+                        </div>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
-        </nav>
+        </div>
+    </section>
 
-        <section>
-            <div class="container">
-                <h1 class="title">Latest news in MMA</h1>
-                <div class="mbr-text counter-container col-12 col-md-12 mbr-fonts-style display-7 mma-news">
-                    <ul>
-                        <li><strong>MOBILE FRIENDLY</strong> - no special actions required, all sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site, it will adapt automagically. <a href="https://mobirise.com/">Try it now!</a></li>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 
-                        <li><strong>EASY AND SIMPLE</strong> - cut down the development time with drag-and-drop website builder. Drop the blocks into the page, edit content inline and publish - no technical skills required. <a href="https://mobirise.com/">Try it now!</a></li>
-                        
-                        <li><strong>UNIQUE STYLES</strong> - choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. <a href="https://mobirise.com/">Try it now!</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </body>
 </html>
