@@ -9,6 +9,7 @@ h2.title {
 div.mma-news ul li {
     padding: 1em 0;
     list-style: none;
+    border-bottom: 1px solid #e86100;
 }
 
 div.mma-news ul {
