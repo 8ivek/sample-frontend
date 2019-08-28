@@ -26,3 +26,14 @@ a.mma_news_title {
 a {
     color: #000000;
 }
+
+.navbar-expand-lg .navbar-nav .nav-link.slack, li.nav-item a.slack {
+    background-image:url('../../assets/icons/slack-icon.png');
+    background-repeat: no-repeat;
+    background-size: 2em 2em;
+    background-position: left center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left:2.2em;
+}
