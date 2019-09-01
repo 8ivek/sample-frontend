@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <!-- Required meta tags -->
@@ -30,10 +30,12 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
 
+    <script src="https://kit.fontawesome.com/f2b8102126.js"></script>
+
     <title>Latest mma news</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">MMA</a>
         <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
@@ -56,9 +58,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link slack" href="https://join.slack.com/t/mmafy/shared_invite/enQtNzI4NjQ0MjkzMzY3LWJhYTQxZWFjMzQ5NWMzNThiNDc4ODdkYzE4NTQ2OTVkM2Q2NzNjNTY4YWU4MDkwYWM2NTJkZTUyMmU0YzQ1YzI">Join us in Slack</a>
-                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search">
@@ -67,8 +66,7 @@
         </div>
     </nav>
 
-    <section>
-        <div class="container">
+    <div class="container">
             <h2 class="title">Latest MMA news</h2>
             <div class="mbr-text counter-container col-12 col-md-12 mbr-fonts-style display-7 mma-news">
                 <ul>
@@ -141,8 +139,18 @@
                 </ul>
             </div>
         </div>
-    </section>
 
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <a target="_blank" href="https://join.slack.com/t/mmafy/shared_invite/enQtNzI4NjQ0MjkzMzY3LWJhYTQxZWFjMzQ5NWMzNThiNDc4ODdkYzE4NTQ2OTVkM2Q2NzNjNTY4YWU4MDkwYWM2NTJkZTUyMmU0YzQ1YzI">
+                <i class="fab fa-slack">&nbsp; Slack</i>
+            </a> | <a target="_blank" href="https://www.facebook.com/ufcfy">
+                <i class="fab fa-facebook">&nbsp; Facebook</i>
+            </a> | <a target="_blank" href="https://twitter.com/ufcfy3">
+                <i class="fab fa-twitter">&nbsp; Twitter</i>
+            </a>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
